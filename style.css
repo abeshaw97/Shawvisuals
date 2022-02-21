@@ -1,17 +1,28 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     padding: 20px 35px;
-    background-color: rgb(34, 34, 102)
+    background-color: rgb(39, 39, 75)
 }
 
 header a{
-color: aquamarine;
-background-color: rgb(34, 34, 102);
+color: rgb(135, 232, 245);
 }
 
 header h1 {
 font-weight: bold;
 font-size: 36px;
-color: aquamarine
+color: rgb(39, 39, 75)
 
 }
 
@@ -20,8 +31,16 @@ float: right;
 margin: 0 30px;
 }
 
+
 header nav ul li {
     display:inline;
     color: aquamarine;
     font-size: 30px;
 }
+
+.contact-info {
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
