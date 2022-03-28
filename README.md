@@ -1,2 +1,0 @@
-# Shawvisuals Portfolio
-
