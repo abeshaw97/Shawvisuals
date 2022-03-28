@@ -10,6 +10,13 @@ padding: 0;
     padding: 0;
 }
 
+
+img {
+width: 50%
+
+}
+
+
 header {
     padding: 20px 35px;
     background-color: rgb(39, 39, 75)
@@ -28,7 +35,8 @@ color: rgb(39, 39, 75)
 
 header nav a{
 float: right;
-margin: 0 30px;
+margin: 0 40px;
+padding: 14px 16px;
 }
 
 
@@ -38,9 +46,18 @@ header nav ul li {
     font-size: 30px;
 }
 
+
+
+column.side{
+width: 25%;
+
+}
+
 .contact-info {
 display:flex;
 justify-content: space-between;
 flex-wrap: wrap;
+background-color: rgb(135, 232, 245);
 }
+
 
